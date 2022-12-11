@@ -1,0 +1,35 @@
+{
+    "name": "heimdall-dashboard",
+    "release": "13.1-RELEASE",
+    "artifact": "https://github.com/isrofasil/iocage-plugin-organizr.git",
+    "properties": {
+        "nat": 1,
+        "nat_forwards": "tcp(8088:80)"
+    },
+    "pkgs": [
+        "git",
+        "nginx",
+        "php80",
+        "php80-curl",
+        "php80-pdo",
+        "php80-sqlite3",
+        "php80-simplexml",
+        "php80-zip",
+        "php80-openssl",
+        "php80-hash",
+        "php80-json",
+        "php80-session"
+        "php80-pdo_sqlite"
+        "php80-filter"
+    ],
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
+    "fingerprints": {
+        "plugin-default": [
+            {
+                "function": "sha256",
+                "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
+            }
+        ]
+    },
+    "official": false
+}
