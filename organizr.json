@@ -4,7 +4,7 @@
     "artifact": "https://github.com/isrofasil/iocage-plugin-organizr.git",
     "properties": {
         "nat": 1,
-        "nat_forwards": "tcp(8088:80)"
+        "nat_forwards": "tcp(80:8082)"
     },
     "pkgs": [
         "git",
