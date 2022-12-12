@@ -1,5 +1,5 @@
 {
-    "name": "heimdall-dashboard",
+    "name": "organizr",
     "release": "13.1-RELEASE",
     "artifact": "https://github.com/isrofasil/iocage-plugin-organizr.git",
     "properties": {
@@ -18,8 +18,8 @@
         "php80-openssl",
         "php80-hash",
         "php80-json",
-        "php80-session"
-        "php80-pdo_sqlite"
+        "php80-session",
+        "php80-pdo_sqlite",
         "php80-filter"
     ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
